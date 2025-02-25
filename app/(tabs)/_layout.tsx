@@ -61,6 +61,13 @@ export default function TabLayout() {
       tabBarIcon: () => null,
     }}
   />
+  <Tabs.Screen
+    name="stopwatch"
+    options={{
+      title: 'Stopwatch',
+      tabBarIcon: () => null,
+    }}
+  />
 </Tabs>
 
   );
