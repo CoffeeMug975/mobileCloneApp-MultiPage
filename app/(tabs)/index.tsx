@@ -1,7 +1,7 @@
 import { View, Text, Image, StyleSheet, Platform } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import Entypo from '@expo/vector-icons/Entypo';
-import ContentBoxAlarm from '@/components/ui/ContentBox';
+import ContentBoxAlarm from '@/components/ui/ContentBoxAlarm';
 
 // import { HelloWave } from '@/components/HelloWave';
 // import ParallaxScrollView from '@/components/ParallaxScrollView';
