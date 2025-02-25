@@ -6,7 +6,7 @@ const Stopwatch=()=>{
         <View style={styles.container}>
             <Text style={styles.title} >00:00.00</Text>
             <TouchableOpacity style={styles.lapButton} onPress={() => alert('Hello There:')}>
-                <FontAwesome name='stopwatch' size ={20} color = "black" />
+                <FontAwesome name="stopwatch" size ={20} color = "black" />
                 <Text style={{color: 'white', marginLeft: 10, fontWeight: 'bold'}}>Lap</Text>
             </TouchableOpacity>
             <br/>

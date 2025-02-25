@@ -38,9 +38,11 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
     },
     textSectionOne: {
+        color: 'white',
         fontSize: 30,
     },
     textSectionTwo: {
         fontSize: 20,
+        color: 'white',
     }
 });

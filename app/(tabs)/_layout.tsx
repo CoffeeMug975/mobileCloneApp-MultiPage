@@ -29,7 +29,7 @@ export default function TabLayout() {
       }),
     ],
     tabBarLabelStyle: {
-      fontSize: 20,
+      fontSize: 15,
       marginTop: -15,
     },
   }}>

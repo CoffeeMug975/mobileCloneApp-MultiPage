@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, Image, Platform } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import Entypo from '@expo/vector-icons/Entypo';
+import ContentBoxLocation from '@/components/ui/ContentBoxLocation';
 
 export default function WorldClock() {
   return (
@@ -29,8 +30,10 @@ export default function WorldClock() {
       </View>
 
       {/* Different Time zones and weather */}
-      <View>
-
+      <View style={styles.content}>
+        <ContentBoxLocation />
+        <ContentBoxLocation />
+        <ContentBoxLocation />
       </View>
 
     </View>
@@ -43,7 +46,7 @@ const styles = StyleSheet.create({
     flex: 1,
     height: '100%',
     width: 'auto',
-    backgroundColor: 'white', 
+    backgroundColor: 'black', 
   },
 
   topSection: {
@@ -82,5 +85,8 @@ const styles = StyleSheet.create({
     padding: 0,
     height: '5%',
   },
-  
+
+  content: {
+    height: "45%"
+  }
 });
