@@ -12,7 +12,7 @@ The following are the inspiration of what we were trying to clone
 
 
 ![Clock_App-Alarm-Page](https://github.com/user-attachments/assets/4d61c28f-1786-48c9-ad32-695dcd0d2882)
-<img src="https://github.com/user-attachments/assets/4d61c28f-1786-48c9-ad32-695dcd0d2882" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/4d61c28f-1786-48c9-ad32-695dcd0d2882" width="400" >
 
 ![Clock_App-Stopwatch_Page](https://github.com/user-attachments/assets/fe74cd4a-79e2-4f84-858f-4f835b439d6d)
 ![Clock_App-Timer_Page](https://github.com/user-attachments/assets/0ec7c79b-22ad-4620-9a90-0bcd4e5680cd)
