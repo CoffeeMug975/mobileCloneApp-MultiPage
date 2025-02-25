@@ -41,9 +41,23 @@ export default function TabLayout() {
     }}
   />
   <Tabs.Screen
-    name="explore"
+    name="worldClock"
     options={{
-      title: 'Explore',
+      title: 'World Clock',
+      tabBarIcon: () => null,
+    }}
+  />
+  <Tabs.Screen
+    name="stopWatch"
+    options={{
+      title: 'Stopwatch',
+      tabBarIcon: () => null,
+    }}
+  />
+  <Tabs.Screen
+    name="timer"
+    options={{
+      title: 'Timer',
       tabBarIcon: () => null,
     }}
   />
